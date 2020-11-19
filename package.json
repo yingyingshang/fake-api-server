@@ -1,0 +1,27 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "Simple Fake API",
+  "main": "main.js",
+  "scripts": {
+    "test": "json-server --watch ./database.json",
+    "start-auth": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingyingshang/fake-api-server.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "yingying",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yingyingshang/fake-api-server/issues"
+  },
+  "homepage": "https://github.com/yingyingshang/fake-api-server#readme",
+  "dependencies": {
+    "json-server": "^0.12.1",
+    "jsonwebtoken": "^8.1.0"
+  }
+}

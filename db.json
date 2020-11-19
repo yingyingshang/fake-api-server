@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Selenium with C#",
+      "author": "Karthik KK"
+    },
+    {
+      "id": 20,
+      "title": "Appiums",
+      "author": "Karthik KK"
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 4,
+      "title": "post json body",
+      "author": "executeAutomation"
+    },
+    {
+      "author": "ExecutionAutomation",
+      "id": "7",
+      "title": "API Testing"
+    },
+    {
+      "author": "executeAutomation",
+      "id": "8",
+      "title": "Rest-assured course"
+    },
+    {
+      "author": "executeAutomation",
+      "id": 9,
+      "title": "Rest-assured course"
+    },
+    {
+      "author": "executeAutomation",
+      "id": 10,
+      "title": "Rest-assured course"
+    },
+    {
+      "author": "ExecutionAutomation",
+      "id": "6",
+      "title": "API Testing"
+    },
+    {
+      "author": "ExecutionAutomation",
+      "id": "5",
+      "title": "API Testing"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Excellent course",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Sam",
+    "postId": "2"
+  },
+  "address": {
+    "primary": [
+      {
+        "city": "Auckland",
+        "State": "Auckland",
+        "Country": "New Zealand",
+        "Pincode": 1010
+      },
+      {
+        "city": "Queenstown",
+        "State": "Queenstown",
+        "Country": "New Zealand",
+        "Pincode": 34232
+      }
+    ],
+    "secondary": [
+      {
+        "city": "Chennai",
+        "State": "Tamil Nadu",
+        "Country": "India",
+        "Pincode": 600100
+      }
+    ]
+  }
+}
