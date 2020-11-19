@@ -6,47 +6,25 @@
       "author": "Karthik KK"
     },
     {
-      "id": 20,
+      "id": 2,
       "title": "Appiums",
       "author": "Karthik KK"
     },
     {
-      "id": 21
-    },
-    {
-      "id": 4,
-      "title": "post json body",
-      "author": "executeAutomation"
-    },
-    {
-      "author": "ExecutionAutomation",
-      "id": "7",
-      "title": "API Testing"
-    },
-    {
-      "author": "executeAutomation",
-      "id": "8",
-      "title": "Rest-assured course"
-    },
-    {
-      "author": "executeAutomation",
-      "id": 9,
-      "title": "Rest-assured course"
-    },
-    {
-      "author": "executeAutomation",
-      "id": 10,
-      "title": "Rest-assured course"
-    },
-    {
-      "author": "ExecutionAutomation",
-      "id": "6",
-      "title": "API Testing"
+      "id": 3
     },
     {
       "author": "ExecutionAutomation",
       "id": "5",
-      "title": "API Testing"
+      "title": "Robotium course"
+    },
+    {
+      "id": 4
+    },
+    {
+      "title": "Rest-assured",
+      "author": "executeAutomation",
+      "id": 7
     }
   ],
   "comments": [

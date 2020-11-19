@@ -7,9 +7,9 @@ const server = jsonServer.create()
 const router = jsonServer.router('./database.json')
 const userdb = JSON.parse(fs.readFileSync('./users.json', 'UTF-8'))
 
+server.use(jsonServer.defaults());
 server.use(bodyParser.urlencoded({extended: true}))
 server.use(bodyParser.json())
-server.use(jsonServer.defaults());
 
 const SECRET_KEY = '123456789'
 
