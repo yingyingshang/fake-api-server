@@ -11,6 +11,8 @@ Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkthcnRtY2
 result: 404
 Pending resolve
 
+Answer: update the router from database.json to db.json
+
 POST: http://localhost:3000/auth/login
 Body: JSON
 {
