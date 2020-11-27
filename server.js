@@ -1,15 +1,17 @@
+
 const fs = require('fs')
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
 const jwt = require('jsonwebtoken')
 
 const server = jsonServer.create()
-const router = jsonServer.router('./database.json')
+// const router = jsonServer.router('./database.json')
+const router2 = jsonServer.router('./db.json')
 const userdb = JSON.parse(fs.readFileSync('./users.json', 'UTF-8'))
 
 server.use(jsonServer.defaults());
 server.use(bodyParser.urlencoded({extended: true}))
-server.use(bodyParser.json())
+server.use(bodyParser.json()) 
 
 const SECRET_KEY = '123456789'
 
@@ -29,7 +31,6 @@ function verifyToken(token){
 function isAuthenticated({email, password}){
   return userdb.users.findIndex(user => user.email === email && user.password === password) !== -1
 }
-
 
 server.post('/auth/login', (req, res) => {
   const {email, password} = req.body
@@ -60,7 +61,8 @@ server.use(/^(?!\/auth).*$/,  (req, res, next) => {
   }
 })
 
-server.use(router)
+// server.use(router)
+server.use(router2)
 
 server.listen(3000, () => {
   console.log('Run Auth API Server')

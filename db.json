@@ -15,7 +15,7 @@
     },
     {
       "author": "ExecutionAutomation",
-      "id": "5",
+      "id": 5,
       "title": "Robotium course"
     },
     {
@@ -36,7 +36,7 @@
   ],
   "profile": {
     "name": "Sam",
-    "postId": "2"
+    "postId": 2
   },
   "address": {
     "primary": [
