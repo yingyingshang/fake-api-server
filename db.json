@@ -38,27 +38,18 @@
     "name": "Sam",
     "postId": 2
   },
-  "address": {
-    "primary": [
+  "locations": {
+    "id": 1,
+    "city": "Location001",
+    "country": "abb",
+    "address": [
       {
-        "city": "Auckland",
-        "State": "Auckland",
-        "Country": "New Zealand",
-        "Pincode": 1010
-      },
-      {
-        "city": "Queenstown",
-        "State": "Queenstown",
-        "Country": "New Zealand",
-        "Pincode": 34232
-      }
-    ],
-    "secondary": [
-      {
-        "city": "Chennai",
-        "State": "Tamil Nadu",
-        "Country": "India",
-        "Pincode": 600100
+        "primary": {
+          "street": "1st street",
+          "state": "Auckland",
+          "type": "primary",
+          "pincode": 1010
+        }
       }
     ]
   }
